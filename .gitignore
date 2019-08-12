@@ -40,3 +40,4 @@ third_party
 *.db
 *.user
 .vscode
+/Build/Targets/x86-microsoft-win32-vs2015/.vs/

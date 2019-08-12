@@ -122,3 +122,22 @@ For Debug builds:
 For Release builds:
 ```make AP4_BUILD_CONFIG=Release```
 
+
+
+### centos编译
+wget http://prdownloads.sourceforge.net/scons/scons-2.5.0.tar.gz
+tar zxvf scons-2.5.0.tar.gz
+cd scons-2.5.0/
+需要python2.7版本
+python setup.py install   
+检查是否安装成功
+$scons -v
+
+cd /home/xxx/Bento4/Build/Targets/x86_64-unknown-linux
+scons -u build_config=Release   此时编译Release/Static版本.
+
+
+
+
+
+
